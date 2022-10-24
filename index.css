@@ -82,12 +82,11 @@ h2
 .article
 {
     background-color: rgb(250, 250, 250);
-    margin-left:2em;
-    margin-right:2em;
     height:auto;
     padding:1em;
     border:grey 2px solid;
-
+    width: 80%;
+    margin-left:10%;
 }
 
 .profil
@@ -101,7 +100,7 @@ h2
     width: 4em;
     border: #001362 3px solid;
     border-radius: 50%;
-    padding: 0.5em;
+    padding: 0.1em;
 }
 
 .pseudo
@@ -116,6 +115,9 @@ h2
 .ArticleContent
 {
     margin-left:3.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .TextArticleContent
@@ -125,17 +127,19 @@ h2
 
 .imageArticleContent
 {
+    display: flex;
     width: 25em;
     border: grey 1px solid;
     border-radius: 1.5em;
     margin-left:0.5em;
+    margin-top: 1em;
 }
 
 .socialicon
 {
     display:flex;
     justify-content: space-between;
-    margin-top: 0.5em;
-    width: 75%;
-    margin-left: 4em;
+    margin-top: 2.5em;
+    width: 50%;
+    margin-left: 27.5%;
 }
